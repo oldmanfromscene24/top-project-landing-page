@@ -1,0 +1,149 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 4px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.header,
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px 64px;
+    align-self: stretch;
+}
+
+.header > img {
+    width: 50px;
+    height: 50px; 
+    object-fit: none;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font: 24px;   
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 16px;    
+}
+
+.herotext {
+    max-width: 400px;
+}
+
+.herotext .title {
+    font-size: 48px;
+    font-weight: bold;  
+}
+
+.herotext > button {
+    background-color: #3882f6;
+    color: white;
+}
+
+.hero > img {
+    width: 400px;
+    height: 200px;
+    object-fit: none;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 150px; 
+    padding: 32px;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    object-fit: none;    
+    border: 4px solid #3882f6;
+    border-radius:  8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 64px 256px;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: end;
+}
+
+.signup {
+    display: flex;
+    margin: 64px 128px;
+    background-color: #3882f6;
+    padding: 32px 128px;
+    width: 800px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.container {
+    color:white;    
+}
+
+.container .title {
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.signup > button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    align-self: center;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    align-self: stretch;
+    text-align: center;
+    padding: 32px;
+    font-size: small;
+}
+
+
